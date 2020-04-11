@@ -63,6 +63,10 @@ public class Main {
         gui.add(addParamNameButton);
         gui.add(addParamValueButton);
 
+        gui.add(baseUrlOutput);
+        gui.add(baseUrlOutput);
+        gui.add(baseUrlOutput);
+
         gui.pack();
         gui.setLocationRelativeTo(null);
         return gui;

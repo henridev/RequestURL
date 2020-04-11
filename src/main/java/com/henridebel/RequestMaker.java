@@ -1,5 +1,6 @@
 package com.henridebel;
 
+import org.json.*;
 import java.io.*;
 import java.net.HttpURLConnection;
 import java.net.URL;
@@ -12,32 +13,26 @@ public class RequestMaker {
     private Map<String, String> parameters = new HashMap<>();
     private String stringParams;
 
+    public String response;
+
     public static void main(String... args) throws IOException {
         System.out.println("testing request maker");
         List<String> keys = Arrays.asList("query");
         List<String> values = Arrays.asList("fart");
-        RequestMaker mymaker = new RequestMaker("https://api.chucknorris.io/jokes/search?", keys, values);
-        mymaker.sendRequest();
+        RequestMaker requestmaker = new RequestMaker("https://api.chucknorris.io/jokes", keys, values);
+        requestmaker.sendRequest();
+        System.out.println(requestmaker.getResponse());
     }
 
     /*
     params: specify the base url 
     for example here https://api.chucknorris.io/search?
     give in possible params
-
      */
     public RequestMaker(String baseUrl, List<String> inputparametersNames, List<String> inputparametersValues) throws IOException {
-        this.url = new URL(baseUrl); // just create the basic url
         generateParameterMap(inputparametersNames, inputparametersValues);
         generateParamsString();
-        /*
-        con.setRequestMethod("GET");
-        con.setDoOutput(true);
-        DataOutputStream out = new DataOutputStream(con.getOutputStream());
-        out.writeBytes(stringParams);
-        out.flush();
-        out.close();
-         */
+        this.url = new URL(baseUrl + this.stringParams);
     }
 
     public void generateParameterMap(List<String> inputparametersNames, List<String> inputparametersValues) {
@@ -46,6 +41,7 @@ public class RequestMaker {
             String inputValue = inputparametersValues.get(i);
             this.parameters.put(inputName, inputValue);
         }
+
     }
 
     public void generateParamsString() throws UnsupportedEncodingException {
@@ -56,14 +52,16 @@ public class RequestMaker {
             result.append(URLEncoder.encode(entry.getValue(), "UTF-8"));
             result.append("&");
         }
-        String resultString = result.toString();
+        String resultString = "/search?" + result.toString();
+        System.out.println("\nresult string : " + resultString.substring(0, resultString.length() - 1));
         this.stringParams = resultString.length() > 0 ?  resultString.substring(0, resultString.length() - 1) : resultString;
     }
 
 
+
     public void sendRequest() throws IOException {
         this.con = (HttpURLConnection) this.url.openConnection();
-        this.con.setDoOutput(true);
+
         this.con.setRequestProperty("User-Agent", "Mozilla/5.0");
 
         int responseCode = this.con.getResponseCode();
@@ -77,8 +75,18 @@ public class RequestMaker {
         while ((inputLine = in.readLine()) != null) {
             response.append(inputLine);
         }
-        in.close();
 
-        System.out.println(response.toString());
+        in.close();
+        this.response = response.toString();
+        this.con.disconnect();
+    }
+
+    public String getResponse() {
+        try {
+            JSONObject myjson = new JSONObject(this.response);
+            return myjson.toString(2);
+        } catch (JSONException ex) {
+            return this.response;
+        }
     }
 }

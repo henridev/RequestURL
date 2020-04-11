@@ -15,7 +15,17 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fd01e835-2efe-4e4a-9377-c13df5318fb5" name="Default Changelist" comment="first commit" />
+    <list default="true" id="fd01e835-2efe-4e4a-9377-c13df5318fb5" name="Default Changelist" comment="first commit">
+      <change afterPath="$PROJECT_DIR$/../UrlRequestMaker/URLRequestMaker/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UrlRequestMaker/URLRequestMaker/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../UrlRequestMaker/URLRequestMaker/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UrlRequestMaker/URLRequestMaker/URLRequestMaker.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../UrlRequestMaker/URLRequestMaker/URLRequestMaker.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UrlRequestMaker/URLRequestMaker/out/production/URLRequestMaker/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UrlRequestMaker/URLRequestMaker/out/production/URLRequestMaker/com/henridebel/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UrlRequestMaker/URLRequestMaker/out/production/URLRequestMaker/com/henridebel/RequestMaker.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UrlRequestMaker/URLRequestMaker/src/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/../UrlRequestMaker/URLRequestMaker/src/main/java/META-INF/MANIFEST.MF" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UrlRequestMaker/URLRequestMaker/src/com/henridebel/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../UrlRequestMaker/URLRequestMaker/src/main/java/com/henridebel/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UrlRequestMaker/URLRequestMaker/src/com/henridebel/RequestMaker.java" beforeDir="false" afterPath="$PROJECT_DIR$/../UrlRequestMaker/URLRequestMaker/src/main/java/com/henridebel/RequestMaker.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -38,13 +48,17 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../UrlRequestMaker/URLRequestMaker" />
-    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
@@ -54,7 +68,7 @@
       <recent name="D:\CodeFidles\UrlRequestMaker" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.RequestMaker">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.henridebel.Main" />
       <module name="URLRequestMaker" />
@@ -77,8 +91,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.RequestMaker" />
         <item itemvalue="Application.Main" />
+        <item itemvalue="Application.RequestMaker" />
       </list>
     </recent_temporary>
   </component>
@@ -114,7 +128,14 @@
       <option name="project" value="LOCAL" />
       <updated>1586622125184</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="first commit">
+      <created>1586622291549</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1586622291549</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -130,18 +151,27 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$" />
+      <path value="$PROJECT_DIR$/../UrlRequestMaker" />
+    </ignored-roots>
     <MESSAGE value="first commit" />
     <option name="LAST_COMMIT_MESSAGE" value="first commit" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="231" y="60" key="#Project_Structure" timestamp="1586590617361">
-      <screen x="0" y="0" width="1500" height="970" />
+    <state x="818" y="-1353" key="#Project_Structure" timestamp="1586629779397">
+      <screen x="424" y="-1440" width="2560" height="1410" />
     </state>
     <state x="231" y="60" key="#Project_Structure/0.0.1500.970/424.-1440.2560.1410@0.0.1500.970" timestamp="1586590617361" />
+    <state x="818" y="-1353" key="#Project_Structure/0.0.1500.970/424.-1440.2560.1410@424.-1440.2560.1410" timestamp="1586629779397" />
     <state x="1104" y="-1035" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1586598768502">
       <screen x="424" y="-1440" width="2560" height="1410" />
     </state>
     <state x="1104" y="-1035" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1500.970/424.-1440.2560.1410@424.-1440.2560.1410" timestamp="1586598768502" />
+    <state x="1427" y="-1046" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1586629645729">
+      <screen x="424" y="-1440" width="2560" height="1410" />
+    </state>
+    <state x="1427" y="-1046" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/0.0.1500.970/424.-1440.2560.1410@424.-1440.2560.1410" timestamp="1586629645729" />
     <state x="1487" y="-845" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1586592181705">
       <screen x="424" y="-1440" width="2560" height="1410" />
     </state>
@@ -150,51 +180,79 @@
       <screen x="424" y="-1440" width="2560" height="1410" />
     </state>
     <state x="1133" y="-1155" key="FileChooserDialogImpl/0.0.1500.970/424.-1440.2560.1410@424.-1440.2560.1410" timestamp="1586622094897" />
-    <state width="2561" height="410" key="GridCell.Tab.0.bottom" timestamp="1586620536595">
+    <state width="2561" height="411" key="GridCell.Tab.0.bottom" timestamp="1586631000517">
       <screen x="424" y="-1440" width="2560" height="1410" />
     </state>
     <state width="1458" height="259" key="GridCell.Tab.0.bottom/0.0.1500.970/424.-1440.2560.1410@0.0.1500.970" timestamp="1586591611817" />
-    <state width="2561" height="410" key="GridCell.Tab.0.bottom/0.0.1500.970/424.-1440.2560.1410@424.-1440.2560.1410" timestamp="1586620536595" />
-    <state width="2561" height="410" key="GridCell.Tab.0.center" timestamp="1586620536595">
+    <state width="2561" height="411" key="GridCell.Tab.0.bottom/0.0.1500.970/424.-1440.2560.1410@424.-1440.2560.1410" timestamp="1586631000517" />
+    <state width="2561" height="411" key="GridCell.Tab.0.center" timestamp="1586631000517">
       <screen x="424" y="-1440" width="2560" height="1410" />
     </state>
     <state width="1458" height="259" key="GridCell.Tab.0.center/0.0.1500.970/424.-1440.2560.1410@0.0.1500.970" timestamp="1586591611816" />
-    <state width="2561" height="410" key="GridCell.Tab.0.center/0.0.1500.970/424.-1440.2560.1410@424.-1440.2560.1410" timestamp="1586620536595" />
-    <state width="2561" height="410" key="GridCell.Tab.0.left" timestamp="1586620536595">
+    <state width="2561" height="411" key="GridCell.Tab.0.center/0.0.1500.970/424.-1440.2560.1410@424.-1440.2560.1410" timestamp="1586631000517" />
+    <state width="2561" height="411" key="GridCell.Tab.0.left" timestamp="1586631000517">
       <screen x="424" y="-1440" width="2560" height="1410" />
     </state>
     <state width="1458" height="259" key="GridCell.Tab.0.left/0.0.1500.970/424.-1440.2560.1410@0.0.1500.970" timestamp="1586591611816" />
-    <state width="2561" height="410" key="GridCell.Tab.0.left/0.0.1500.970/424.-1440.2560.1410@424.-1440.2560.1410" timestamp="1586620536595" />
-    <state width="2561" height="410" key="GridCell.Tab.0.right" timestamp="1586620536595">
+    <state width="2561" height="411" key="GridCell.Tab.0.left/0.0.1500.970/424.-1440.2560.1410@424.-1440.2560.1410" timestamp="1586631000517" />
+    <state width="2561" height="411" key="GridCell.Tab.0.right" timestamp="1586631000517">
       <screen x="424" y="-1440" width="2560" height="1410" />
     </state>
     <state width="1458" height="259" key="GridCell.Tab.0.right/0.0.1500.970/424.-1440.2560.1410@0.0.1500.970" timestamp="1586591611817" />
-    <state width="2561" height="410" key="GridCell.Tab.0.right/0.0.1500.970/424.-1440.2560.1410@424.-1440.2560.1410" timestamp="1586620536595" />
-    <state x="854" y="-1251" key="SettingsEditor" timestamp="1586614210103">
+    <state width="2561" height="411" key="GridCell.Tab.0.right/0.0.1500.970/424.-1440.2560.1410@424.-1440.2560.1410" timestamp="1586631000517" />
+    <state width="2561" height="504" key="GridCell.Tab.1.bottom" timestamp="1586627680694">
+      <screen x="424" y="-1440" width="2560" height="1410" />
+    </state>
+    <state width="2561" height="504" key="GridCell.Tab.1.bottom/0.0.1500.970/424.-1440.2560.1410@424.-1440.2560.1410" timestamp="1586627680694" />
+    <state width="2561" height="504" key="GridCell.Tab.1.center" timestamp="1586627680694">
+      <screen x="424" y="-1440" width="2560" height="1410" />
+    </state>
+    <state width="2561" height="504" key="GridCell.Tab.1.center/0.0.1500.970/424.-1440.2560.1410@424.-1440.2560.1410" timestamp="1586627680694" />
+    <state width="2561" height="504" key="GridCell.Tab.1.left" timestamp="1586627680694">
+      <screen x="424" y="-1440" width="2560" height="1410" />
+    </state>
+    <state width="2561" height="504" key="GridCell.Tab.1.left/0.0.1500.970/424.-1440.2560.1410@424.-1440.2560.1410" timestamp="1586627680694" />
+    <state width="2561" height="504" key="GridCell.Tab.1.right" timestamp="1586627680694">
+      <screen x="424" y="-1440" width="2560" height="1410" />
+    </state>
+    <state width="2561" height="504" key="GridCell.Tab.1.right/0.0.1500.970/424.-1440.2560.1410@424.-1440.2560.1410" timestamp="1586627680694" />
+    <state x="1234" y="-1080" key="Maven.ArtifactSearchDialog" timestamp="1586630052844">
+      <screen x="424" y="-1440" width="2560" height="1410" />
+    </state>
+    <state x="1234" y="-1080" key="Maven.ArtifactSearchDialog/0.0.1500.970/424.-1440.2560.1410@424.-1440.2560.1410" timestamp="1586630052844" />
+    <state x="854" y="-1251" key="SettingsEditor" timestamp="1586630847241">
       <screen x="424" y="-1440" width="2560" height="1410" />
     </state>
     <state x="252" y="130" key="SettingsEditor/0.0.1500.970/424.-1440.2560.1410@0.0.1500.970" timestamp="1586590656771" />
-    <state x="854" y="-1251" key="SettingsEditor/0.0.1500.970/424.-1440.2560.1410@424.-1440.2560.1410" timestamp="1586614210103" />
+    <state x="854" y="-1251" key="SettingsEditor/0.0.1500.970/424.-1440.2560.1410@424.-1440.2560.1410" timestamp="1586630847241" />
     <state x="1425" y="-994" width="540" height="524" key="StructurePopup" timestamp="1586591789144">
       <screen x="424" y="-1440" width="2560" height="1410" />
     </state>
     <state x="1425" y="-994" width="540" height="524" key="StructurePopup/0.0.1500.970/424.-1440.2560.1410@424.-1440.2560.1410" timestamp="1586591789144" />
-    <state x="1296" y="-1002" key="Vcs.Push.Dialog.v2" timestamp="1586622171845">
+    <state x="1296" y="-1002" key="Vcs.Push.Dialog.v2" timestamp="1586622304909">
       <screen x="424" y="-1440" width="2560" height="1410" />
     </state>
-    <state x="1296" y="-1002" key="Vcs.Push.Dialog.v2/0.0.1500.970/424.-1440.2560.1410@424.-1440.2560.1410" timestamp="1586622171845" />
+    <state x="1296" y="-1002" key="Vcs.Push.Dialog.v2/0.0.1500.970/424.-1440.2560.1410@424.-1440.2560.1410" timestamp="1586622304909" />
+    <state x="1042" y="-1036" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1586629602353">
+      <screen x="424" y="-1440" width="2560" height="1410" />
+    </state>
+    <state x="1042" y="-1036" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1500.970/424.-1440.2560.1410@424.-1440.2560.1410" timestamp="1586629602353" />
     <state x="1273" y="-1006" width="861" height="629" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1586614390395">
       <screen x="424" y="-1440" width="2560" height="1410" />
     </state>
     <state x="1273" y="-1006" width="861" height="629" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1500.970/424.-1440.2560.1410@424.-1440.2560.1410" timestamp="1586614390395" />
+    <state x="1482" y="-834" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1586622282719">
+      <screen x="424" y="-1440" width="2560" height="1410" />
+    </state>
+    <state x="1482" y="-834" key="git4idea.remote.GitConfigureRemotesDialog/0.0.1500.970/424.-1440.2560.1410@424.-1440.2560.1410" timestamp="1586622282719" />
     <state x="1122" y="-1113" key="run.anything.popup" timestamp="1586618581625">
       <screen x="424" y="-1440" width="2560" height="1410" />
     </state>
     <state x="409" y="225" key="run.anything.popup/0.0.1500.970/424.-1440.2560.1410@0.0.1500.970" timestamp="1586590906364" />
     <state x="1122" y="-1113" key="run.anything.popup/0.0.1500.970/424.-1440.2560.1410@424.-1440.2560.1410" timestamp="1586618581625" />
-    <state x="1367" y="-1123" width="672" height="678" key="search.everywhere.popup" timestamp="1586597635760">
+    <state x="1367" y="-1123" width="672" height="678" key="search.everywhere.popup" timestamp="1586630820024">
       <screen x="424" y="-1440" width="2560" height="1410" />
     </state>
-    <state x="1367" y="-1123" width="672" height="678" key="search.everywhere.popup/0.0.1500.970/424.-1440.2560.1410@424.-1440.2560.1410" timestamp="1586597635760" />
+    <state x="1367" y="-1123" width="672" height="678" key="search.everywhere.popup/0.0.1500.970/424.-1440.2560.1410@424.-1440.2560.1410" timestamp="1586630820024" />
   </component>
 </project>
