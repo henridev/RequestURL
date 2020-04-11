@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="TitleCaseConverter:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/TitleCaseConverter_jar</output-path>
+    <root id="archive" name="TitleCaseConverter.jar">
+      <element id="module-output" name="URLRequestMaker" />
+    </root>
+  </artifact>
+</component>

@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </select>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="fd01e835-2efe-4e4a-9377-c13df5318fb5" name="Default Changelist" comment="first commit">
+      <change beforePath="$PROJECT_DIR$/../UrlRequestMaker/URLRequestMaker" beforeDir="false" afterPath="$PROJECT_DIR$/../UrlRequestMaker/URLRequestMaker" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../UrlRequestMaker" />
+  </component>
+  <component name="ProjectId" id="1aNytacU3q4rBgJbSXKGsFvhXfW" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../UrlRequestMaker" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.henridebel" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\CodeFidles\UrlRequestMaker" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.RequestMaker">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.henridebel.Main" />
+      <module name="URLRequestMaker" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RequestMaker" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.henridebel.RequestMaker" />
+      <module name="URLRequestMaker" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.henridebel.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.RequestMaker" />
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="fd01e835-2efe-4e4a-9377-c13df5318fb5" name="Default Changelist" comment="" />
+      <created>1586590561188</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1586590561188</updated>
+    </task>
+    <task id="LOCAL-00001" summary="first commit">
+      <created>1586614352713</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1586614352713</updated>
+    </task>
+    <task id="LOCAL-00002" summary="first commit">
+      <created>1586621549710</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1586621549710</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="first commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="first commit" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="231" y="60" key="#Project_Structure" timestamp="1586590617361">
+      <screen x="0" y="0" width="1500" height="970" />
+    </state>
+    <state x="231" y="60" key="#Project_Structure/0.0.1500.970/424.-1440.2560.1410@0.0.1500.970" timestamp="1586590617361" />
+    <state x="1104" y="-1035" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1586598768502">
+      <screen x="424" y="-1440" width="2560" height="1410" />
+    </state>
+    <state x="1104" y="-1035" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1500.970/424.-1440.2560.1410@424.-1440.2560.1410" timestamp="1586598768502" />
+    <state x="1487" y="-845" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1586592181705">
+      <screen x="424" y="-1440" width="2560" height="1410" />
+    </state>
+    <state x="1487" y="-845" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1500.970/424.-1440.2560.1410@424.-1440.2560.1410" timestamp="1586592181705" />
+    <state x="1133" y="-1155" key="FileChooserDialogImpl" timestamp="1586621530788">
+      <screen x="424" y="-1440" width="2560" height="1410" />
+    </state>
+    <state x="1133" y="-1155" key="FileChooserDialogImpl/0.0.1500.970/424.-1440.2560.1410@424.-1440.2560.1410" timestamp="1586621530788" />
+    <state width="2561" height="410" key="GridCell.Tab.0.bottom" timestamp="1586620536595">
+      <screen x="424" y="-1440" width="2560" height="1410" />
+    </state>
+    <state width="1458" height="259" key="GridCell.Tab.0.bottom/0.0.1500.970/424.-1440.2560.1410@0.0.1500.970" timestamp="1586591611817" />
+    <state width="2561" height="410" key="GridCell.Tab.0.bottom/0.0.1500.970/424.-1440.2560.1410@424.-1440.2560.1410" timestamp="1586620536595" />
+    <state width="2561" height="410" key="GridCell.Tab.0.center" timestamp="1586620536595">
+      <screen x="424" y="-1440" width="2560" height="1410" />
+    </state>
+    <state width="1458" height="259" key="GridCell.Tab.0.center/0.0.1500.970/424.-1440.2560.1410@0.0.1500.970" timestamp="1586591611816" />
+    <state width="2561" height="410" key="GridCell.Tab.0.center/0.0.1500.970/424.-1440.2560.1410@424.-1440.2560.1410" timestamp="1586620536595" />
+    <state width="2561" height="410" key="GridCell.Tab.0.left" timestamp="1586620536595">
+      <screen x="424" y="-1440" width="2560" height="1410" />
+    </state>
+    <state width="1458" height="259" key="GridCell.Tab.0.left/0.0.1500.970/424.-1440.2560.1410@0.0.1500.970" timestamp="1586591611816" />
+    <state width="2561" height="410" key="GridCell.Tab.0.left/0.0.1500.970/424.-1440.2560.1410@424.-1440.2560.1410" timestamp="1586620536595" />
+    <state width="2561" height="410" key="GridCell.Tab.0.right" timestamp="1586620536595">
+      <screen x="424" y="-1440" width="2560" height="1410" />
+    </state>
+    <state width="1458" height="259" key="GridCell.Tab.0.right/0.0.1500.970/424.-1440.2560.1410@0.0.1500.970" timestamp="1586591611817" />
+    <state width="2561" height="410" key="GridCell.Tab.0.right/0.0.1500.970/424.-1440.2560.1410@424.-1440.2560.1410" timestamp="1586620536595" />
+    <state x="854" y="-1251" key="SettingsEditor" timestamp="1586614210103">
+      <screen x="424" y="-1440" width="2560" height="1410" />
+    </state>
+    <state x="252" y="130" key="SettingsEditor/0.0.1500.970/424.-1440.2560.1410@0.0.1500.970" timestamp="1586590656771" />
+    <state x="854" y="-1251" key="SettingsEditor/0.0.1500.970/424.-1440.2560.1410@424.-1440.2560.1410" timestamp="1586614210103" />
+    <state x="1425" y="-994" width="540" height="524" key="StructurePopup" timestamp="1586591789144">
+      <screen x="424" y="-1440" width="2560" height="1410" />
+    </state>
+    <state x="1425" y="-994" width="540" height="524" key="StructurePopup/0.0.1500.970/424.-1440.2560.1410@424.-1440.2560.1410" timestamp="1586591789144" />
+    <state x="1296" y="-1002" key="Vcs.Push.Dialog.v2" timestamp="1586621748827">
+      <screen x="424" y="-1440" width="2560" height="1410" />
+    </state>
+    <state x="1296" y="-1002" key="Vcs.Push.Dialog.v2/0.0.1500.970/424.-1440.2560.1410@424.-1440.2560.1410" timestamp="1586621748827" />
+    <state x="1273" y="-1006" width="861" height="629" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1586614390395">
+      <screen x="424" y="-1440" width="2560" height="1410" />
+    </state>
+    <state x="1273" y="-1006" width="861" height="629" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1500.970/424.-1440.2560.1410@424.-1440.2560.1410" timestamp="1586614390395" />
+    <state x="1122" y="-1113" key="run.anything.popup" timestamp="1586618581625">
+      <screen x="424" y="-1440" width="2560" height="1410" />
+    </state>
+    <state x="409" y="225" key="run.anything.popup/0.0.1500.970/424.-1440.2560.1410@0.0.1500.970" timestamp="1586590906364" />
+    <state x="1122" y="-1113" key="run.anything.popup/0.0.1500.970/424.-1440.2560.1410@424.-1440.2560.1410" timestamp="1586618581625" />
+    <state x="1367" y="-1123" width="672" height="678" key="search.everywhere.popup" timestamp="1586597635760">
+      <screen x="424" y="-1440" width="2560" height="1410" />
+    </state>
+    <state x="1367" y="-1123" width="672" height="678" key="search.everywhere.popup/0.0.1500.970/424.-1440.2560.1410@424.-1440.2560.1410" timestamp="1586597635760" />
+  </component>
+</project>
