@@ -15,9 +15,7 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fd01e835-2efe-4e4a-9377-c13df5318fb5" name="Default Changelist" comment="first commit">
-      <change beforePath="$PROJECT_DIR$/../UrlRequestMaker/URLRequestMaker" beforeDir="false" afterPath="$PROJECT_DIR$/../UrlRequestMaker/URLRequestMaker" afterDir="false" />
-    </list>
+    <list default="true" id="fd01e835-2efe-4e4a-9377-c13df5318fb5" name="Default Changelist" comment="first commit" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -31,7 +29,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../UrlRequestMaker" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../UrlRequestMaker/URLRequestMaker" />
   </component>
   <component name="ProjectId" id="1aNytacU3q4rBgJbSXKGsFvhXfW" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -42,7 +40,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../UrlRequestMaker" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../UrlRequestMaker/URLRequestMaker" />
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -109,7 +107,14 @@
       <option name="project" value="LOCAL" />
       <updated>1586621549710</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="first commit">
+      <created>1586622125184</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1586622125184</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -141,10 +146,10 @@
       <screen x="424" y="-1440" width="2560" height="1410" />
     </state>
     <state x="1487" y="-845" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1500.970/424.-1440.2560.1410@424.-1440.2560.1410" timestamp="1586592181705" />
-    <state x="1133" y="-1155" key="FileChooserDialogImpl" timestamp="1586621530788">
+    <state x="1133" y="-1155" key="FileChooserDialogImpl" timestamp="1586622094897">
       <screen x="424" y="-1440" width="2560" height="1410" />
     </state>
-    <state x="1133" y="-1155" key="FileChooserDialogImpl/0.0.1500.970/424.-1440.2560.1410@424.-1440.2560.1410" timestamp="1586621530788" />
+    <state x="1133" y="-1155" key="FileChooserDialogImpl/0.0.1500.970/424.-1440.2560.1410@424.-1440.2560.1410" timestamp="1586622094897" />
     <state width="2561" height="410" key="GridCell.Tab.0.bottom" timestamp="1586620536595">
       <screen x="424" y="-1440" width="2560" height="1410" />
     </state>
@@ -174,10 +179,10 @@
       <screen x="424" y="-1440" width="2560" height="1410" />
     </state>
     <state x="1425" y="-994" width="540" height="524" key="StructurePopup/0.0.1500.970/424.-1440.2560.1410@424.-1440.2560.1410" timestamp="1586591789144" />
-    <state x="1296" y="-1002" key="Vcs.Push.Dialog.v2" timestamp="1586621748827">
+    <state x="1296" y="-1002" key="Vcs.Push.Dialog.v2" timestamp="1586622171845">
       <screen x="424" y="-1440" width="2560" height="1410" />
     </state>
-    <state x="1296" y="-1002" key="Vcs.Push.Dialog.v2/0.0.1500.970/424.-1440.2560.1410@424.-1440.2560.1410" timestamp="1586621748827" />
+    <state x="1296" y="-1002" key="Vcs.Push.Dialog.v2/0.0.1500.970/424.-1440.2560.1410@424.-1440.2560.1410" timestamp="1586622171845" />
     <state x="1273" y="-1006" width="861" height="629" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1586614390395">
       <screen x="424" y="-1440" width="2560" height="1410" />
     </state>
