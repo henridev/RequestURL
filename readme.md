@@ -24,3 +24,5 @@ inside the java sdk we have commands
 put this file TC-MANIFEST in directory specfying which class to use as a main
 * `java -jar TitleCaseConverter.jar` - will now be executable independant of development env 
 
+<img src="https://lh3.google.com/u/0/d/1UPsOEql0p7kO7OPMlLj5C-_VIDgkspjC=w3000-h1736-iv1" class="a-b-ta-Ua" alt="Displaying Annotation 2020-04-13 064930.png" aria-hidden="true">
+

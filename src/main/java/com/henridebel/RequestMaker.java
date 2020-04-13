@@ -15,25 +15,17 @@ public class RequestMaker {
 
     public String response;
 
-    public static void main(String... args) throws IOException {
-        System.out.println("testing request maker");
-        List<String> keys = Arrays.asList("query");
-        List<String> values = Arrays.asList("fart");
-        RequestMaker requestmaker = new RequestMaker("https://api.chucknorris.io/jokes", keys, values);
-        requestmaker.sendRequest();
-        System.out.println(requestmaker.getResponse());
-    }
-
-    /*
-    params: specify the base url 
-    for example here https://api.chucknorris.io/search?
-    give in possible params
-     */
     public RequestMaker(String baseUrl, List<String> inputparametersNames, List<String> inputparametersValues) throws IOException {
         generateParameterMap(inputparametersNames, inputparametersValues);
         generateParamsString();
         this.url = new URL(baseUrl + this.stringParams);
     }
+
+    /*
+    params: specify the base url
+    for example here https://api.chucknorris.io/search?
+    give in possible params
+     */
 
     public void generateParameterMap(List<String> inputparametersNames, List<String> inputparametersValues) {
         for (int i = 0; i < inputparametersNames.size() ; i++) {

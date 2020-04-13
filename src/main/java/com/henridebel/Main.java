@@ -2,9 +2,11 @@ package com.henridebel;
 
 import javax.swing.*;
 import java.awt.*;
+import java.io.IOException;
+import java.util.List;
 
 public class Main {
-    public RequestMaker requestmaker;
+    static RequestMaker requestmaker;
 
     public static void main(String... args){
         JFrame application = createGui();
@@ -19,8 +21,8 @@ public class Main {
         JButton addBaseUrlButton = new JButton("Add baseUrl");
         JButton addParamNameButton = new JButton("Add parameter Name");
         JButton addParamValueButton = new JButton("Add parameter Value");
-        JButton  CreateRequestUrl = new JButton("Add parameter Value");
-        JButton  SendRequestUrl = new JButton("Add parameter Value");
+        JButton  CreateRequestUrl = new JButton("create request url");
+        JButton  SendRequestUrl = new JButton("send request");
         JLabel baseUrlOutput = new JLabel();
         JLabel ParamNameOutput = new JLabel();
         JLabel ParamValueOutput = new JLabel();
@@ -35,25 +37,38 @@ public class Main {
 
 
         addParamNameButton.addActionListener(event -> {
-            ParamNameOutput.setText("BaseURL is: " +parameterNameInput.getText());
+            ParamNameOutput.setText(parameterNameInput.getText());
         });
 
 
         addParamValueButton.addActionListener(event -> {
-            ParamValueOutput.setText("BaseURL is: " +parameterValueInput.getText());
+            ParamValueOutput.setText( parameterValueInput.getText());
         });
 
         addBaseUrlButton.addActionListener(event -> {
-            baseUrlOutput.setText("BaseURL is: " +baseUrlInput.getText());
+            baseUrlOutput.setText(baseUrlInput.getText());
         });
 
         CreateRequestUrl.addActionListener(event -> {
-            // requestmaker = new RequestMaker();
+            try {
+                requestmaker = new RequestMaker(baseUrlOutput.getText(), List.of(ParamValueOutput.getText()), List.of(ParamNameOutput.getText()));
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
+        });
+
+        SendRequestUrl.addActionListener(event -> {
+            try {
+                requestmaker.sendRequest();
+                System.out.println(requestmaker.getResponse());
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
         });
 
         JFrame gui = new JFrame("URL request maker");
         gui.setSize(1000,1000);
-        gui.setLayout(new GridLayout(3,3));
+        gui.setLayout(new GridLayout(4,3));
 
         gui.add(baseUrlInput);
         gui.add(parameterNameInput);
@@ -64,8 +79,11 @@ public class Main {
         gui.add(addParamValueButton);
 
         gui.add(baseUrlOutput);
-        gui.add(baseUrlOutput);
-        gui.add(baseUrlOutput);
+        gui.add(ParamNameOutput);
+        gui.add(ParamValueOutput);
+
+        gui.add(CreateRequestUrl);
+        gui.add(SendRequestUrl);
 
         gui.pack();
         gui.setLocationRelativeTo(null);
